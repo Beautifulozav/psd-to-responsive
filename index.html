@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>marble</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script>
+        // picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/master/dist/picturefll.min.js" async></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1 class="logo">Marble</h1>
+            <nav>
+                <h2>Main Navigation</h2>
+                <div id="burger-nav"></div>
+                <ul class="open">
+                    <li><a href="" class="current">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Journals</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contact</a></li>                    
+                </ul>
+            </nav>
+        </div>
+    </header>  
+    <!--change to picture element-->
+    <div id="main-banner">
+        <picture>
+            <source srcset="images/banner-s.jpg" media="(max-width:480px)">
+            <source srcset="images/banner-m.jpg" media="(max-width: 760px)">
+            <img srcset="images/banner.jpg" alt="banner">
+        </picture>
+        <!-- <img src="images/banner.jpg" alt="banner"> -->
+    </div>
+
+    <main class="wrapper">
+        
+        <section id="selling-points">
+            <ul>
+                <li>
+                  <img src="images/icon-1.png" alt="sellingpoint">
+                 <h3>Perllulatant</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque ratione,
+            Culpa veritatis, esse sit quas, magni aperiam ex alias rerum modi exceptur</p>
+               </li>
+               <li>
+                    <img src="images/icon-2.png" alt="sellingpoint">
+                   <h3>Perllulatant</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque ratione,
+              Culpa veritatis, esse sit quas, magni aperiam ex alias rerum modi exceptur</p>
+                 </li>
+                 <li>
+                        <img src="images/icon-3.png" alt="sellingpoint">
+                       <h3>Perllulatant</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque ratione,
+                  Culpa veritatis, esse sit quas, magni aperiam ex alias rerum modi exceptur</p>
+                     </li>
+                     <li>
+                            <img src="images/icon-4.png" alt="sellingpoint">
+                           <h3>Perllulatant</h3>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque ratione,
+                      Culpa veritatis, esse sit quas, magni aperiam ex alias rerum modi exceptur</p>
+                         </li>
+           </Ul>
+        </section>
+
+        <section id="latest-work">
+            <h3>Our Latest Work</h3>
+            <ul>
+               <li>
+                  <img src="images/snap-1.jpg" alt="work">
+                  <h3>Nobis business card</h3>
+                  <p class="tags">Business card, Graphics.</p>
+                  <p>Tempora eaque ratione,veritatis, esse sit quas, magni aperiam ex alias rerum modi exceptur</p>
+                </li>
+                <li>
+                        <img src="images/snap-2.jpg" alt="work">
+                        <h3>Nobis business card</h3>
+                        <p class="tags">Business card, Graphics.</p>
+                        <p>Tempora eaque ratione,veritatis, esse sit quas, magni aperiam ex alias rerum modi exceptur</p>
+                      </li>
+                      <li>
+                            <img src="images/snap-3.jpg" alt="work">
+                            <h3>Nobis business card</h3>
+                            <p class="tags">Business card, Graphics.</p>
+                            <p>Tempora eaque ratione,veritatis, esse sit quas, magni aperiam ex alias rerum modi exceptur</p>
+                          </li>
+            </ul>
+        </section>
+        
+    </main>
+    <div id="quote">
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Eveniet itaque dicta cupiditate ullam quia obcaecati cum</block>
+    </div>
+    <footer>
+          <div class="wrapper">
+            <div>
+                    <ul>
+                        <li><h4>Get in touch</h4></li>
+                        <li>copying and pasting can be so boring so i will just do my own</li>
+                        <li>Moonshine light street no:14/05</li>
+                        <li>0247 541 65 87</li>
+                        <li>support@longwave.com</li>
+                    </ul>
+                    <ul>
+                            <li><h4>Twitter</h4></li>
+                            <li class="tw">I really do hope you understand my plight</li>
+                            <li class="tw">I really do hope you understand my plight</li>
+                            <li class="tw">I really do hope you understand my plight</li>
+                        </ul>
+                        <ul>
+                                <li><h4>Popular Post</h4></li>
+                                <li>I really do hope you understand my plight. <br/>nov 21. 2021</li>
+                                <li>I really do hope you understand my plight. <br/>nov 21. 2021</li>
+                                <li>I really do hope you understand my plight. <br/>nov 21. 2021</li>
+                            </ul>
+                        <ul>
+                                <li><h4>about us</h4></li>
+                                <li>What is even worse is having to look at a screen multiple times, its most annoying of all, i hope i get used to it</li>
+            
+                                <li>but before then i remain your favorite writer</li>
+                            </ul>
+                </div>
+                <div id="copyright">&copy; 2o15 Marble. All Rights Reserverd. theme by elemis.</div>
+          </div>     
+    </footer>
+</body>
+</html>
